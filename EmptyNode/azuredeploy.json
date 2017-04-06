@@ -55,7 +55,7 @@
             }],
             "uninstallScriptActions": [],
             "httpsEndpoints": [{
-              "subDomainSuffix": "nifi",
+              "subDomainSuffix": "nfi",
               "destinationPort": 9999,
               "accessModes": ["webpage"]
             }],
