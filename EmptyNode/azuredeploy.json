@@ -54,7 +54,11 @@
                 "roles": ["edgenode"]
             }],
             "uninstallScriptActions": [],
-            "httpsEndpoints": [],
+            "httpsEndpoints": [{
+              "subDomainSuffix": "nifi",
+              "destinationPort": 9999,
+              "accessModes": ["webpage"]
+            }],
             "applicationType": "CustomApplication"
         }
     }],
